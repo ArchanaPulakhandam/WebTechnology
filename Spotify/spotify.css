@@ -1,0 +1,321 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+nav{
+    /* border: 2px solid; */
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+nav svg{
+    /* border: 2px solid; */
+    height: 35px;
+    fill: white;
+    cursor: pointer;
+}
+nav div{
+    /* border: 2px solid; */
+    width: 25%;
+}
+nav div+div{
+    width: 40%;
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav ol>li:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+main{
+    /* border: 2px solid red; */
+    height: 530px;
+     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(./assets/desktop-hero.jpeg)center -650px/cover no-repeat;
+    /* padding-top: 300px; */
+}
+main div{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+
+}
+main h1{
+    font-size: 57px;
+    word-spacing: -4px;
+    color: white;
+}
+main button{
+   height: 50px;
+   width: 155px;
+   border-radius: 25px;
+   font-size: 16px;
+   font-weight: bold;
+   background-color: white;
+   color: black;
+}
+#sec1{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sec1 h1{
+    text-align: center;
+    font-size: 45px;
+    word-spacing: -3px;
+}
+#sec1 aside{
+    /* border: 2px solid red; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+#sec1 div{
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    line-height: 25px;
+}
+#sec2{
+    /* border: 2px solid red; */
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 23px;
+    background-color: rgb(30, 215, 96);;
+}
+#sec2 img{
+    height: 320px;
+}
+
+#sec3{
+    /* border: 2px solid; */
+    height: 500px;
+}
+#sec3 h1{
+    text-align: center;
+    font-size: 40px;
+}
+#sec3 aside{
+    /* border: 2px solid; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec3 div{
+    /* border: 2px solid; */
+    width: 80%;
+}
+#sec3 summary{
+    height: 70px;
+    padding: 22px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: -1px;
+    border-bottom: 1px solid lightgrey;
+}
+#sec3 summary:hover{
+    background-color: rgb(242, 243, 244);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#sec3 p{
+    padding-left: -22px;
+    line-height: 23px;
+}
+#sec3 font{
+     color: green;
+     font-weight: 600;
+}
+#sec3 span{
+    float: right;
+}
+
+/* #sec3{
+    border: 2px solid red;
+    height: 515px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+#sec3 aside{
+    border: 2px solid red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+#sec3 details{
+    border: 2px solid red;
+    height: 80px;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#sec3 summary{
+    list-style: none;
+    height: 70px;
+    font-size: 18px;
+    padding: 22px;
+    font-weight: 600;
+    word-spacing: -1px;
+    border-bottom: 1px solid rgb(251, 248, 248);
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+#sec4{
+    /* border: 2px solid red; */
+    height: 450px;
+     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(./assets/mobile-closing.jpeg)center -400px/100% no-repeat;
+    padding-top: 300px;
+}
+#sec4 div{
+    /* border: 2px solid red; */
+    height: 230px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+
+}
+#sec4 h1{
+    font-size: 57px;
+    word-spacing: -4px;
+    color: white;
+}
+#sec4 button{
+   height: 50px;
+   width: 155px;
+   border-radius: 25px;
+   font-size: 16px;
+   font-weight: bold;
+   background-color: white;
+   color: black;
+}
+footer{
+    /* border: 2px solid; */
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    /* flex-direction: column; */
+    color: white;
+    background-color: black;
+}
+
+footer article{
+    /* border: 2px solid; */
+    display: flex;
+    width: 60%;
+    height: 70%;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+
+}
+footer div{
+    /* border: 2px solid; */
+    height: 70%;
+    width: 14%;
+    line-height: 30px;
+}
+footer section{
+    /* border: 2px solid; */
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer section img{
+    height: 60px;
+    width: 60px;
+}
+footer div>span:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+footer div>span{
+    font-weight: 600;
+}
+#sec5{
+    /* border: 2px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+#sec5 div{
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 60%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+#sec5 article{
+     /* border: 2px solid red; */
+    height: 80px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+}
+#sec5 span:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+#sec5 article>span:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+footer article>div>svg{
+    fill: white;
+}
